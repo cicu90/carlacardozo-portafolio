@@ -26,7 +26,34 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3Cstyle%3E.pixel%7Bimage-rendering:pixelated%7D%3C/style%3E%3C/defs%3E%3Cimage href='https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200' class='pixel' width='200' height='200'/%3E%3C/svg%3E" alt="Carla Cardozo" class="hero-avatar">
+                <¡Ya encontré el problema! 😄
+
+He revisado el proyecto que me subiste y no es un problema de GitHub Pages, sino del código.
+
+🚨 Problema 1: El avatar pixelado
+
+Ahora mismo en tu index.html tienes esto:
+
+<img src="data:image/svg+xml,...Unsplash..." class="hero-avatar">
+
+Es decir:
+
+Está usando una imagen de Unsplash.
+Además la mete dentro de un SVG con efecto pixelado (image-rendering: pixelated).
+
+😂 O sea, el propio Copilot te ha generado una imagen pixelada.
+
+Lo que haría
+
+Pon directamente tu avatar.
+
+Como el que hicimos ayer.
+
+Por ejemplo:
+
+<img src="images/avatar.png"
+     alt="Carla Cardozo"
+     class="hero-avatar">
                 <h1 class="hero-title">Carla Cardozo</h1>
                 <p class="hero-subtitle">Full Stack Developer</p>
                 <p class="hero-description">
