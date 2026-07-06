@@ -100,7 +100,41 @@
         <div class="container">
             <h2 class="section-title">Proyectos Destacados</h2>
             <div class="projects-grid">
-                <!-- Project 1: Soundfy -->
+                <!-- Project 1: Todo App - DEMO EN VIVO -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-header">
+                        <h3>Todo App - Lista de Tareas</h3>
+                        <div class="project-badges">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Local Storage</span>
+                            <span class="tech-badge">DEMO VIVO</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Aplicación de gestión de tareas con almacenamiento local. Agrega, edita y elimina tareas. 
+                        Los datos se guardan automáticamente en tu navegador. ¡Pruébalo ahora en la demostración interactiva!
+                    </p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Local Storage</span>
+                    </div>
+                    <div class="project-demo-container">
+                        <p class="demo-label">📱 Prueba interactiva:</p>
+                        <iframe src="projects/todo-app/" class="project-demo-iframe"></iframe>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/cicu90/carlacardozo-portafolio/tree/main/projects/todo-app" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Código Fuente
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Soundfy -->
                 <div class="project-card">
                     <div class="project-icon">
                         <i class="fas fa-music"></i>
@@ -134,7 +168,7 @@
                     </div>
                 </div>
 
-                <!-- Project 2: Calendario -->
+                <!-- Project 3: Calendario -->
                 <div class="project-card">
                     <div class="project-icon">
                         <i class="fas fa-calendar"></i>
@@ -163,13 +197,13 @@
                         <a href="https://github.com/cicu90/calendar" target="_blank" class="project-link">
                             <i class="fab fa-github"></i> Código
                         </a>
-                        <a href="projects/todo-app/" class="project-link demo-btn">
+                        <button class="project-link demo-btn" onclick="alert('Repositorio disponible en GitHub')">
                             <i class="fas fa-play"></i> Demo
-                        </a>
+                        </button>
                     </div>
                 </div>
 
-                <!-- Project 3: CRUD Empresarial -->
+                <!-- Project 4: CRUD Empresarial -->
                 <div class="project-card">
                     <div class="project-icon">
                         <i class="fas fa-building"></i>
@@ -201,16 +235,6 @@
                         <button class="project-link demo-btn" onclick="alert('Backend API. Accede al repositorio para documentación completa.')">
                             <i class="fas fa-play"></i> Docs
                         </button>
-                    </div>
-                </div>
-
-                <!-- Project 4: Tu próximo proyecto -->
-                <div class="project-card add-project">
-                    <div class="add-project-placeholder">
-                        <i class="fas fa-plus-circle"></i>
-                        <h3>¿Tienes otro proyecto?</h3>
-                        <p>Edita index.html para agregar más proyectos</p>
-                        <small>Sigue el mismo formato que los proyectos anteriores</small>
                     </div>
                 </div>
             </div>
