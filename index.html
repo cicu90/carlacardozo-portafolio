@@ -102,14 +102,20 @@
             <div class="projects-grid">
                 <!-- Project 1: Soundfy -->
                 <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
                     <div class="project-header">
                         <h3>Soundfy</h3>
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Redux</span>
+                        <div class="project-badges">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Redux</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
                     </div>
                     <p class="project-description">
-                        Aplicación de música tipo Spotify con gestión de estado global, integración de MongoDB y Firebase, 
-                        y diseño colaborativo en Figma.
+                        Aplicación de música tipo Spotify con gestión de estado global usando Redux, integración de MongoDB y Firebase, 
+                        autenticación de usuarios y diseño colaborativo en Figma. Sistema completo de reproducción con playlist personalizada.
                     </p>
                     <div class="project-tech">
                         <span>React</span>
@@ -118,61 +124,93 @@
                         <span>MongoDB</span>
                         <span>Firebase</span>
                     </div>
-                    <a href="https://github.com/cicu90/codeforce-soundfy-music-app" target="_blank" class="project-link">
-                        Ver en GitHub <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="project-actions">
+                        <a href="https://github.com/cicu90/codeforce-soundfy-music-app" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                        <button class="project-link demo-btn" onclick="alert('Demo en desarrollo. Accede al repositorio para más detalles.')">
+                            <i class="fas fa-play"></i> Demo
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Project 2: Calendario -->
                 <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-calendar"></i>
+                    </div>
                     <div class="project-header">
-                        <h3>Aplicación de Calendario</h3>
-                        <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">Responsive</span>
+                        <h3>Calendario y Tareas</h3>
+                        <div class="project-badges">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Local Storage</span>
+                            <span class="tech-badge">Responsive</span>
+                        </div>
                     </div>
                     <p class="project-description">
-                        Sistema de gestión de tareas y eventos con organización por fechas y categorías. 
-                        Diseño responsive e interfaz intuitiva.
+                        Sistema avanzado de gestión de tareas y eventos con organización por fechas y categorías. 
+                        Interfaz intuitiva y responsiva. Almacenamiento local para persistencia de datos.
+                        Visualización de calendario integrada con recordatorios.
                     </p>
                     <div class="project-tech">
                         <span>JavaScript</span>
                         <span>HTML5</span>
                         <span>CSS3</span>
                         <span>DOM API</span>
+                        <span>Local Storage</span>
                     </div>
-                    <a href="https://github.com/cicu90/calendar" target="_blank" class="project-link">
-                        Ver en GitHub <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="project-actions">
+                        <a href="https://github.com/cicu90/calendar" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                        <a href="projects/todo-app/" class="project-link demo-btn">
+                            <i class="fas fa-play"></i> Demo
+                        </a>
+                    </div>
                 </div>
 
                 <!-- Project 3: CRUD Empresarial -->
                 <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
                     <div class="project-header">
                         <h3>Sistema CRUD Empresarial</h3>
-                        <span class="tech-badge">Full Stack</span>
-                        <span class="tech-badge">Node.js</span>
+                        <div class="project-badges">
+                            <span class="tech-badge">Full Stack</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
                     </div>
                     <p class="project-description">
-                        Gestión de empleados y datos con operaciones completas CRUD. 
-                        Integración backend con base de datos y validaciones.
+                        Plataforma completa de gestión de empleados y datos empresariales con operaciones CRUD completas. 
+                        Arquitectura full stack con validaciones, autenticación y control de acceso.
+                        Base de datos escalable y API REST robusta.
                     </p>
                     <div class="project-tech">
                         <span>Node.js</span>
                         <span>Express</span>
                         <span>MongoDB</span>
                         <span>REST API</span>
+                        <span>Validaciones</span>
                     </div>
-                    <a href="https://github.com/cicu90/Node.js-Web-eCommerce" target="_blank" class="project-link">
-                        Ver en GitHub <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="project-actions">
+                        <a href="https://github.com/cicu90/Node.js-Web-eCommerce" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                        <button class="project-link demo-btn" onclick="alert('Backend API. Accede al repositorio para documentación completa.')">
+                            <i class="fas fa-play"></i> Docs
+                        </button>
+                    </div>
                 </div>
 
-                <!-- Project 4: Agregar tu proyecto en progreso -->
+                <!-- Project 4: Tu próximo proyecto -->
                 <div class="project-card add-project">
                     <div class="add-project-placeholder">
-                        <i class="fas fa-plus"></i>
-                        <p>Agrega tu próximo proyecto aquí</p>
-                        <small>Edita index.html para agregar más proyectos</small>
+                        <i class="fas fa-plus-circle"></i>
+                        <h3>¿Tienes otro proyecto?</h3>
+                        <p>Edita index.html para agregar más proyectos</p>
+                        <small>Sigue el mismo formato que los proyectos anteriores</small>
                     </div>
                 </div>
             </div>
